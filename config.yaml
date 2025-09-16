@@ -1,0 +1,55 @@
+# LinkedIn MCP Server Configuration
+
+# Job Search Default Settings
+job_search:
+  default_location: "San Francisco, CA"
+  default_keywords: 
+    - "software engineer"
+    - "full stack"
+    - "python"
+    - "javascript"
+  experience_level: 
+    - "mid-level"
+    - "senior"
+  company_size: 
+    - "startup"
+    - "medium"
+    - "large"
+  remote_preference: "hybrid"
+  salary_range:
+    min: 100000
+    max: 200000
+
+# Application Settings
+application:
+  auto_apply: false
+  cover_letter_template: "templates/cover_letter.txt"
+  resume_path: "documents/resume.pdf"
+  application_delay: 5  # seconds between applications
+  max_applications_per_day: 10
+
+# Rate Limiting Configuration
+rate_limiting:
+  requests_per_hour: 100
+  requests_per_day: 500
+  delay_between_requests: 1  # seconds
+  burst_limit: 10
+
+# Networking Settings
+networking:
+  max_connection_requests_per_day: 20
+  connection_message_template: "templates/connection_message.txt"
+  follow_up_delay_days: 7
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file_path: "logs/linkedin_mcp.log"
+  max_file_size: "10MB"
+  backup_count: 5
+
+# Security Settings
+security:
+  token_refresh_threshold: 300  # seconds before expiry
+  max_retry_attempts: 3
+  request_timeout: 30  # seconds
