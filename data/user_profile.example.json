@@ -1,0 +1,48 @@
+{
+  "fullName": "Alex Rivers",
+  "title": "Senior Software Engineer",
+  "email": "alex.rivers@example.com",
+  "phone": "+1 (555) 123-4567",
+  "location": "San Francisco, CA",
+  "summary": "Seasoned engineer with 8+ years of experience building cloud-native products, leading cross-functional teams, and shipping resilient distributed systems.",
+  "skills": [
+    "TypeScript",
+    "Python",
+    "AWS",
+    "Distributed Systems",
+    "Microservices",
+    "SQL",
+    "Team Leadership"
+  ],
+  "languages": ["English", "Spanish"],
+  "websites": ["https://github.com/alexrivers", "https://www.linkedin.com/in/alexrivers"],
+  "experiences": [
+    {
+      "title": "Staff Software Engineer",
+      "company": "Nimbus Labs",
+      "startDate": "2021-03",
+      "achievements": [
+        "Led migration of payment pipeline processing 50M+ transactions/month to a microservice architecture with <0.1% error rate",
+        "Mentored 6 engineers and introduced incident response playbooks reducing MTTR by 35%"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "BluePeak Analytics",
+      "startDate": "2018-01",
+      "endDate": "2021-02",
+      "achievements": [
+        "Designed event-driven data platform ingesting 3TB/day with real-time analytics dashboards",
+        "Collaborated with product to define roadmap, accelerating feature delivery by 20%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Washington",
+      "degree": "B.S. in Computer Science",
+      "endDate": "2015"
+    }
+  ],
+  "certifications": ["AWS Certified Solutions Architect"]
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": [
+    { "keywords": ["phone"], "value": "{{profile.phone}}" },
+    { "keywords": ["email"], "value": "{{profile.email}}" },
+    { "keywords": ["name", "full name"], "value": "{{profile.fullName}}" },
+    { "keywords": ["current title", "job title", "position"], "value": "{{profile.title}}" },
+    { "keywords": ["city", "location", "address"], "value": "{{profile.location}}" },
+    { "keywords": ["summary", "about"], "value": "{{profile.summary}}" }
+  ],
+  "defaultResumePath": "output/latest/resume.pdf"
+}
